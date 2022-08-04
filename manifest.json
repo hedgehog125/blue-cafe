@@ -1,0 +1,98 @@
+{
+  "src/lib/imgs/menu.svg": {
+    "file": "app/immutable/assets/menu-f8ceede4.svg",
+    "src": "src/lib/imgs/menu.svg"
+  },
+  ".svelte-kit/runtime/client/start.js": {
+    "file": "app/immutable/start-a7feaf53.js",
+    "src": ".svelte-kit/runtime/client/start.js",
+    "isEntry": true,
+    "imports": [
+      "_index-345448e8.js",
+      "_paths-abcb058a.js"
+    ],
+    "dynamicImports": [
+      ".svelte-kit/runtime/components/layout.svelte",
+      ".svelte-kit/runtime/components/error.svelte",
+      "src/routes/index.svelte",
+      "src/routes/menu.svelte"
+    ]
+  },
+  ".svelte-kit/runtime/components/layout.svelte": {
+    "file": "app/immutable/layout.svelte-56f93054.js",
+    "src": ".svelte-kit/runtime/components/layout.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-345448e8.js"
+    ]
+  },
+  ".svelte-kit/runtime/components/error.svelte": {
+    "file": "app/immutable/error.svelte-968745c5.js",
+    "src": ".svelte-kit/runtime/components/error.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-345448e8.js"
+    ]
+  },
+  "src/routes/index.svelte": {
+    "file": "app/immutable/pages/index.svelte-03bb17e3.js",
+    "src": "src/routes/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-345448e8.js",
+      "_TopBar-64c9d236.js",
+      "_paths-abcb058a.js"
+    ],
+    "css": [
+      "app/immutable/assets/index-af87a35b.css"
+    ]
+  },
+  "src/routes/menu.svelte": {
+    "file": "app/immutable/pages/menu.svelte-f1296d8e.js",
+    "src": "src/routes/menu.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-345448e8.js",
+      "_TopBar-64c9d236.js",
+      "_paths-abcb058a.js"
+    ],
+    "css": [
+      "app/immutable/assets/menu-9708ba80.css"
+    ]
+  },
+  "_index-345448e8.js": {
+    "file": "app/immutable/chunks/index-345448e8.js"
+  },
+  "_paths-abcb058a.js": {
+    "file": "app/immutable/chunks/paths-abcb058a.js"
+  },
+  "_TopBar-64c9d236.js": {
+    "file": "app/immutable/chunks/TopBar-64c9d236.js",
+    "imports": [
+      "_index-345448e8.js",
+      "_paths-abcb058a.js"
+    ],
+    "css": [
+      "app/immutable/assets/TopBar-e730b48d.css"
+    ],
+    "assets": [
+      "app/immutable/assets/menu-f8ceede4.svg"
+    ]
+  },
+  "src/routes/index.css": {
+    "file": "app/immutable/assets/index-af87a35b.css",
+    "src": "src/routes/index.css"
+  },
+  "TopBar.css": {
+    "file": "app/immutable/assets/TopBar-e730b48d.css",
+    "src": "TopBar.css"
+  },
+  "src/routes/menu.css": {
+    "file": "app/immutable/assets/menu-9708ba80.css",
+    "src": "src/routes/menu.css"
+  }
+}
