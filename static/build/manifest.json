@@ -1,10 +1,18 @@
 {
+  "src/lib/imgs/opponent.jpg": {
+    "file": "app/immutable/assets/opponent-9483445d.jpg",
+    "src": "src/lib/imgs/opponent.jpg"
+  },
+  "src/lib/imgs/map.jpg": {
+    "file": "app/immutable/assets/map-6cfabdc5.jpg",
+    "src": "src/lib/imgs/map.jpg"
+  },
   "src/lib/imgs/menu.svg": {
     "file": "app/immutable/assets/menu-f8ceede4.svg",
     "src": "src/lib/imgs/menu.svg"
   },
   ".svelte-kit/runtime/client/start.js": {
-    "file": "app/immutable/start-a7feaf53.js",
+    "file": "app/immutable/start-2bb0bfe8.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -14,8 +22,10 @@
     "dynamicImports": [
       ".svelte-kit/runtime/components/layout.svelte",
       ".svelte-kit/runtime/components/error.svelte",
+      "src/routes/about.svelte",
       "src/routes/index.svelte",
-      "src/routes/menu.svelte"
+      "src/routes/menu.svelte",
+      "src/routes/where.svelte"
     ]
   },
   ".svelte-kit/runtime/components/layout.svelte": {
@@ -36,6 +46,23 @@
       "_index-345448e8.js"
     ]
   },
+  "src/routes/about.svelte": {
+    "file": "app/immutable/pages/about.svelte-a54c2037.js",
+    "src": "src/routes/about.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-345448e8.js",
+      "_TopBar-64c9d236.js",
+      "_paths-abcb058a.js"
+    ],
+    "css": [
+      "app/immutable/assets/about-469b47aa.css"
+    ],
+    "assets": [
+      "app/immutable/assets/opponent-9483445d.jpg"
+    ]
+  },
   "src/routes/index.svelte": {
     "file": "app/immutable/pages/index.svelte-03bb17e3.js",
     "src": "src/routes/index.svelte",
@@ -51,7 +78,7 @@
     ]
   },
   "src/routes/menu.svelte": {
-    "file": "app/immutable/pages/menu.svelte-f1296d8e.js",
+    "file": "app/immutable/pages/menu.svelte-8ec85837.js",
     "src": "src/routes/menu.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -61,7 +88,24 @@
       "_paths-abcb058a.js"
     ],
     "css": [
-      "app/immutable/assets/menu-9708ba80.css"
+      "app/immutable/assets/menu-d0b8449d.css"
+    ]
+  },
+  "src/routes/where.svelte": {
+    "file": "app/immutable/pages/where.svelte-ba3e9323.js",
+    "src": "src/routes/where.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-345448e8.js",
+      "_TopBar-64c9d236.js",
+      "_paths-abcb058a.js"
+    ],
+    "css": [
+      "app/immutable/assets/where-b4cb1bfa.css"
+    ],
+    "assets": [
+      "app/immutable/assets/map-6cfabdc5.jpg"
     ]
   },
   "_index-345448e8.js": {
@@ -87,12 +131,20 @@
     "file": "app/immutable/assets/index-af87a35b.css",
     "src": "src/routes/index.css"
   },
+  "src/routes/menu.css": {
+    "file": "app/immutable/assets/menu-d0b8449d.css",
+    "src": "src/routes/menu.css"
+  },
+  "src/routes/about.css": {
+    "file": "app/immutable/assets/about-469b47aa.css",
+    "src": "src/routes/about.css"
+  },
   "TopBar.css": {
     "file": "app/immutable/assets/TopBar-e730b48d.css",
     "src": "TopBar.css"
   },
-  "src/routes/menu.css": {
-    "file": "app/immutable/assets/menu-9708ba80.css",
-    "src": "src/routes/menu.css"
+  "src/routes/where.css": {
+    "file": "app/immutable/assets/where-b4cb1bfa.css",
+    "src": "src/routes/where.css"
   }
 }

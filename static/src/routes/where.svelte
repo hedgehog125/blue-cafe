@@ -13,7 +13,7 @@
 </main>
 
 <style>
-    span, p {
+    p {
         font-size: 20px;
     }
     img {
