@@ -40,7 +40,7 @@
             </p>
             <span class="noteLabel">Note</span>: <br>
             <span>
-                The menu might change so this could be innaccurate. Please ask at the cafe if you want to check.
+                The menu might change so this could be innaccurate. You might want to check at the cafe.
             </span>
         </div>
     </div>
@@ -89,7 +89,9 @@
         right: 0px;
         
         text-align: center;
-        fony-size: 20px;
+        font-size: 17.5px;
+        padding-left: 12.5px;
+        padding-right: 12.5px;
     }
     .noteLabel {
         font-weight: bold;
