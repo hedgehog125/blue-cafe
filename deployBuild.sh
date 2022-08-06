@@ -17,7 +17,7 @@
     rm -r ${tmpDir}
     
     echo "
-    Now make a commit for this new build and change back to the main branch.
+Now make a commit for this new build and change back to the main branch.
     "
    exit 
 }
